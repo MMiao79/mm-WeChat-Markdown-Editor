@@ -47,8 +47,9 @@ jobs:
       - name: Generate CNAME
         run: |
           mkdir -p apps/web/dist
-          echo "md.doocs.org" > apps/web/dist/CNAME
-
+          mmiao79.github.io/md  > apps/web/dist/CNAME
+        # echo "md.doocs.org" > apps/web/dist/CNAME
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
